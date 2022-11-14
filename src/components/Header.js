@@ -29,10 +29,10 @@ function Header() {
                 <Link to="/placeToRent">Place to stay</Link>
               </li>
               <li>
-                <a href="">NFTs</a>
+                <Link to="/placeToRent">NFTs</Link>
               </li>
               <li>
-                <a href="">Community</a>
+                <Link to="/placeToRent">Community</Link>
               </li>
             </ul>
           </div>
