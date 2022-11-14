@@ -29,15 +29,15 @@ function Header() {
                 <Link to="/placeToRent">Place to stay</Link>
               </li>
               <li>
-                <Link to="/placeToRent">NFTs</Link>
+                <a href="#">NFTs</a>
               </li>
               <li>
-                <Link to="/placeToRent">Community</Link>
+                <a href="#">Community</a>
               </li>
             </ul>
           </div>
           <button className="connect" onClick={modal}>
-            <a href="">Connect Wallets</a>
+            <a href="#">Connect Wallets</a>
           </button>
         </nav>
       </header>
