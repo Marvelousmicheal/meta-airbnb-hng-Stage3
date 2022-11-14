@@ -1,15 +1,19 @@
 import React from "react";
 import { useState } from "react";
 import ConnectModal from "./ConnectModal";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [openModal, SetModal] = useState(false);
   function modal() {
     SetModal(true);
   }
+  function onClose() {
+    SetModal(false);
+  }
   return (
     <>
-      <ConnectModal open={openModal} />
+      <ConnectModal open={openModal} onClose={onClose} />
       <header>
         <nav className="flex-sb">
           <div className="logo-section">
@@ -19,10 +23,10 @@ function Header() {
           <div className="nav-link">
             <ul className="flex flex-e">
               <li>
-                <a href="#">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#">Place to stay</a>
+                <Link to="/placeToRent">Place to stay</Link>
               </li>
               <li>
                 <a href="#">NFTs</a>
