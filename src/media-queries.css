@@ -22,6 +22,19 @@
   .place {
     grid-template-columns: repeat(2, 1fr);
   }
+  .tags {
+    display: block;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+
+  .tags-text {
+    margin-right: 0;
+  }
+  .tags-text p {
+    margin-bottom: 1rem;
+    font-size: 18px;
+  }
 }
 @media only screen and (max-width: 904px) {
   nav {
@@ -135,22 +148,37 @@
   .main {
     height: auto;
   }
+  .tags-text p {
+    margin-right: 1rem;
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 700px) {
   .place {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .tags-text p {
+    margin-right: 0.5rem;
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 502px) {
   .nav-link {
     width: 100%;
   }
+  .tags-text p {
+    margin-right: 1rem;
+    font-size: 10px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .title-text .search input {
-    padding: 15px 70px 15px 19px;
+    padding: 15px 50px 15px 19px;
   }
   .title-text button {
     padding: 15px 40px;
+  }
+  .tags-text p {
+    display: none;
   }
 }
