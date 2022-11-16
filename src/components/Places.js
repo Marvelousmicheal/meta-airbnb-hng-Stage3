@@ -8,7 +8,7 @@ function Places({ places }) {
           const { Image, name, rate, distance, availablity, id, alt } = place;
           return (
             <div className="card" key={id}>
-              <div className="center">
+              <div className="center ">
                 <div className="image">
                   <img src={Image} alt={alt} />
                 </div>

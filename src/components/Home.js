@@ -9,9 +9,9 @@ import SectionTwo from "./SectionTwo";
 function Home() {
   return (
     <>
+      <Header />
       <div className="container">
         <main className="main">
-          <Header />
           <SectionOne />
         </main>
       </div>

@@ -8,8 +8,8 @@ import TagsPlaces from "./TagsPlaces";
 function PlaceToRent() {
   return (
     <>
+      <Header />
       <div className="container">
-        <Header />
         <TagsPlaces />
         <Places places={data2} />
       </div>
