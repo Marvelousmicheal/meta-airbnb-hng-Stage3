@@ -8,6 +8,10 @@
   .place {
     grid-template-columns: repeat(3, 1fr);
   }
+  .partners img {
+  width: 100%;
+  margin-left: 0.5rem;
+}
 }
 @media only screen and (max-width: 1005px) {
   .title-text .search input {
