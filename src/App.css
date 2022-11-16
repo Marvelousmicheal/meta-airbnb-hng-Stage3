@@ -252,6 +252,9 @@ article {
   background-color: #a02279;
   margin-bottom: 1.1875rem;
 }
+.partners img {
+  width: 100%;
+}
 /* ========Section two start Here======= */
 .section-two {
   display: flex;

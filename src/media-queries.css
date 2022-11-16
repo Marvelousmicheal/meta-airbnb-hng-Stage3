@@ -94,6 +94,7 @@
   }
   .image-main {
     margin-bottom: 2rem;
+    width: 100%;
   }
   footer {
     height: auto;
@@ -107,6 +108,13 @@
   }
   footer article {
     display: block;
+  }
+  .footer-text {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .section-one {
     height: auto;
@@ -126,6 +134,11 @@
   }
   .main {
     height: auto;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .place {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media only screen and (max-width: 502px) {
